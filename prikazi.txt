@@ -21,7 +21,13 @@ git checkout master - přesune tě do maste souboru
 
 git branch - vypíše seznam větví
 git branch nazev-nove-vetve - vytvoří novou větev
+git branch -d nazev-vetve - vymaže zvolenou větev
+git branch -D nazev-vetve - vymaže zvolenou větev(I KDYŽ NENI FULLL BRANCH)
+git branch -m "novy-nazev-vetve" - přejmenuje větev ve které se aktuálně nacházíme na zvolený název
+git switch -c nazev-nove-vetve - vytvoří novou větev a rovnou tě do ní i přepne
 git switch nazev-vetve - přepne tě do zvolené větve
+git checkout nazev-vetve - přepne tě do zvolené větve (STARŠÍ VERZE SWITCH)
+
 
 NEVIDITELNA SLOŽKA/SOUBOR 
 1. vytvoř soubor .gitignore 
