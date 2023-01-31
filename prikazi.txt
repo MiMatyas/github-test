@@ -2,7 +2,12 @@ git init - vytvoří git(skrita složka)
 
 git add př.index.html (bez apostrofu) - přidá zvolený soubor do mezipaměti
 git add . - Přidá všechny soubory ve složce do mezipaměti
+
 git commit -m "sem napiš co si změnil od minule" - přidá vše z mezipaměti do gitu a uděla komentař
+git comit - otevře se soubor kam zapises komentar, pro ulozeni soubor zavri
+
+(bez git) cat mazevSouboru - vypiše obsah zvoleneho souboru
+
 git status - vypiše v jakem stavu jsou soubory (neuloženy, v mezipaměti, už poslíny commitem)
 git log - vypiše všechny změny které jsi uložil do gitu
 git log --oneline - vypiše všechny změny které jsi uložil do gitu na jednom řadku
