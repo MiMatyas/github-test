@@ -15,3 +15,8 @@ git log --oneline - vypiše všechny změny které jsi uložil do gitu na jednom
 git show aw213wsd - vypiše změny ktere proběhly v commitu pod danym hashem
 git checkout aw213wsd - předune tě do dané verze souboru
 git checkout master - přesune tě do maste souboru
+
+NEVIDITELNA SLOŽKA/SOUBOR 
+1. vytvoř soubor .gitignore 
+2. otevři ho a napiš do něj nazvy souborů/složek, které nemají být vydět
+3. přidej .gitignored do mezipaměti a commitni ho.(za nazvem složky musí být lomítko př.: slozka/)
