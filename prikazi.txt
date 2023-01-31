@@ -1,3 +1,5 @@
+git init - vytvoří git(skrita složka)
+
 git add př.index.html (bez apostrofu) - přidá zvolený soubor do mezipaměti
 git add . - Přidá všechny soubory ve složce do mezipaměti
 git commit -m "sem napiš co si změnil od minule" - přidá vše z mezipaměti do gitu a uděla komentař
