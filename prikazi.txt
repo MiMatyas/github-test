@@ -4,7 +4,8 @@ git add př.index.html (bez apostrofu) - přidá zvolený soubor do mezipaměti
 git add . - Přidá všechny soubory ve složce do mezipaměti
 
 git commit -m "sem napiš co si změnil od minule" - přidá vše z mezipaměti do gitu a uděla komentař
-git comit - otevře se soubor kam zapises komentar, pro ulozeni soubor zavri
+git commit - otevře se soubor kam zapises komentar, pro ulozeni soubor zavri
+git commit --amend - přidá soubory z mezipaměti do posledního commitu(pomentař přepišeš po odeslani přikazu)
 
 (bez git) cat mazevSouboru - vypiše obsah zvoleneho souboru
 
