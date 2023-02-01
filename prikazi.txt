@@ -33,8 +33,16 @@ git branch -m "novy-nazev-vetve" - přejmenuje větev ve které se aktuálně na
 git switch -c nazev-nove-vetve - vytvoří novou větev a rovnou tě do ní i přepne
 git switch nazev-vetve - přepne tě do zvolené větve
 
-
 git merge zvolena-vetve - přesune zvolenou větev do větve v které aktuálně jsme (FAST MERGE)
+
+git diff - porovna obsah ze složky kde pracujeme oproti poslednimu commitu
+git diff --staged - porovna obsah z mezipaměti oproti poslednimu commitu
+git diff head - porovna obsah složky kde pracujeme i mezipaměti oproti poslednimu commitu
+git diff nazev-souboru - porovna nazev-soubor(třeba style.css) u ze složky kde pracujeme oproti poslednimu commit
+git diff 0fc5272 d6dd0a3 - View difference between commited hashes
+git diff nazev-prvni-vetve nazev-druhe-vetve - porovna poslední commity obou větví 
+(LZE NAPSAT I JAKO git diff nazev-prvni-vetv..nazev-druhe-vetve)
+
 
 
 
