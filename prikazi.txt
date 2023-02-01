@@ -43,8 +43,15 @@ git diff 0fc5272 d6dd0a3 - View difference between commited hashes
 git diff nazev-prvni-vetve nazev-druhe-vetve - porovna poslední commity obou větví 
 (LZE NAPSAT I JAKO git diff nazev-prvni-vetv..nazev-druhe-vetve)
 
+GitHub{
+git remote - vypíše název (origin)
+git remote -v - vypíše název a podrobnosti o propojení
+git remote rename stary-nazev novy-nazev - přejmenuje (z pravidla origin) na nový název
+git remote remove nazev-spojeni -(z pravidla origin) odstraní spojení
 
-
+git clone https://github.com/gabrielecirulli/2048.git - naklonuje do složky soubor z odkazu
+(VE SLOŽCE KAM KLONUJEME NESMÍ BÝT UŽ INICIALIZOVANY GIT)
+}
 
 NEVIDITELNA SLOŽKA/SOUBOR 
 1. vytvoř soubor .gitignore 
