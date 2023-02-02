@@ -52,6 +52,8 @@ git remote remove nazev-spojeni -(z pravidla origin) odstraní spojení
 git push origin nazev-vezve - vloží commity do gitbuhu
 git push origin nazev-vetve:vetem-kam-chceme-commity-ulozit - uloží zvolenou větev do jiné větve 
 (NAZEV VĚTVE KAM VKLADAME MUSÍ ODPOVÍDAT NAZVU V GITHubu(v gitu muže být jiný))
+git push -u origin nazev-vetve - (UPSTREAM) propoji konkretni větev z počitače(tu na ktere jsem) se zvolenou větví v githubu
+(na dané větvy už nemusíš psát git push origin nazev-vezve, stačí napsat git push a ENTER) 
 
 git clone https://github.com/gabrielecirulli/2048.git - naklonuje do složky soubor z odkazu
 (VE SLOŽCE KAM KLONUJEME NESMÍ BÝT UŽ INICIALIZOVANY GIT)
