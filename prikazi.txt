@@ -49,6 +49,10 @@ git remote -v - vypíše název a podrobnosti o propojení
 git remote rename stary-nazev novy-nazev - přejmenuje (z pravidla origin) na nový název
 git remote remove nazev-spojeni -(z pravidla origin) odstraní spojení
 
+git push origin nazev-vezve - vloží commity do gitbuhu
+git push origin nazev-vetve:vetem-kam-chceme-commity-ulozit - uloží zvolenou větev do jiné větve 
+(NAZEV VĚTVE KAM VKLADAME MUSÍ ODPOVÍDAT NAZVU V GITHubu(v gitu muže být jiný))
+
 git clone https://github.com/gabrielecirulli/2048.git - naklonuje do složky soubor z odkazu
 (VE SLOŽCE KAM KLONUJEME NESMÍ BÝT UŽ INICIALIZOVANY GIT)
 }
